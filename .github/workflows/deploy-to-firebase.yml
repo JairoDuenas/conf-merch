@@ -25,7 +25,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@main
       - name: Download Artifact
-        uses: actions/download-artifact@mater
+        uses: actions/download-artifact@master
         with:
           name: dist
           path: dist
